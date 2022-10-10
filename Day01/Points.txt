@@ -1,0 +1,111 @@
+Data structures
+	1. lists
+	2. Dictionaries
+	3. tuples
+	5. sets
+
+Functions
+	1. create a funtion
+	2. call a function
+	3. pass args
+	4. return values
+	5. variable length args
+	6. lambdas
+	7. comprehensions
+	6. scopes
+	8. decorators
+
+OOPS
+	1. class
+	2.	constructors
+	3. instance variables
+	4. class variables
+	5. class method
+	6. operator overloading
+	7. static method
+	8. private variables
+	9. setter, getter methods
+	10. inheritance
+	12. polymorphism
+	13. abstract class
+
+
+Flask
+
+Primary datatypes
+-----------------
+1. Numbers
+    a. Integers
+    b. Float
+    c. complex numbers
+
+2. Strings
+
+3. Boolean
+
+Data Structures
+---------------
+1. lists        -      Arrays
+2. dictionary   -      Associative array or Hashes
+3. Tuple        -      immutable list
+4. set          -
+
+
+lists - arrays
+--------------
+
+arrays
+------
+1. collection of homogenous data
+2. memory allocation is contigious
+
+lists
+-----
+1. collection of hetrogenous data
+2. memory allocation is not contigious (since it is hetrogenous)
+
+Python has readymade function for all tasks
+
+length of a array
+-----------------
+C / C++     -> loop over the array and then find the length
+
+Python      -> len(array)   len function will fetch the length of the array
+
+lists
+-----
+1. ordered collection
+2. mutable
+3. subscriptable
+5. lists are enclosed []
+
+Dictionaries are also called as associative arrays
+data is stored in the form of keys and values
+they are stores in {k1: v1, k2: v2, k3: v3.....}
+dict[k1]
+
+----------------------------------------------------------------
+
+class Employee:
+
+    def __init__(self, name):
+        self.name = name
+
+    def get_details(self):
+        return self.name
+
+-----------------------------------------------------------------
+
+set = {}
+
+1. unordered collection
+2. unique collection
+3. non subscriptable
+
+hashable
+
+
+
+
+
+
