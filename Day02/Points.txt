@@ -1,0 +1,37 @@
+
+Lambdas
+-------
+single expression
+anonymous functions
+
+result_of_expression = lambda arg1, arg2, arg3...: expression
+
+Comprehensions
+--------------
+iterating a collection using lambda syntax
+
+1. list
+2. dictionary
+
+Scopes (accessing a variable - not only printing the value but also updating the value)
+----------------------------------------------------------------------------
+global
+local
+non local
+
+-------------------------------------------------------------------------
+Decorators
+----------
+
+def sub(x, y):
+    return(x - y)
+
+sub should always return a positive value
+
+sub(10, 20)         -    10
+sub(20, 10)         -   -10
+
+
+
+
+
