@@ -1,0 +1,35 @@
+
+1. decorator - that takes funtions with 0 to 4 args
+
+def fun()
+def fun1(x)
+def fun2(x, y)
+def fun3(x, y, z)
+def fun4(x, y, z, a)
+
+2. the result of diff function should always be positive
+
+OOPs
+----
+1. inheritance
+2. polymorphism
+3. encapsulation
+4. abstraction
+
+class
+
+operator overloading
+====================
++ = __add__
+
+Magic methods for
+-----------------
+1. +
+2. -
+3. *
+4. /
+5. //
+
+
+
+
