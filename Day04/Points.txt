@@ -1,0 +1,17 @@
+
+private variables - that cannot be accessed outside the class
+
+abstract class
+--------------
+
+
+Pending
+-------
+@static method
+Iterators
+Generators
+coroutines - asc function calls
+threading also
+
+Sqlalchemy - ORM
+
