@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Students Details </title>
+</head>
+<body>
+    <h3>
+        <a href="{{ url_for('show_all')}}"></a>
+    </h3>
+    {% for messages in get_flashed_messages() %}
+        <p> {{messages}} </p>
+    {% endfor %}
+    <h3> student <a href="{{ url_for('new') }}"> Add New Student </a>"</h3>
+
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Pin</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for student in students %}
+            <tr>
+                <td>{{student.sname}}</td>
+                <td>{{student.studcls}}</td>
+                <td>{{student.addr}}</td>
+                <td>{{student.city}}</td>
+                <td>{{student.pin}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
